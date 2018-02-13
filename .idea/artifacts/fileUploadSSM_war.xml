@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fileUploadSSM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fileUpload-SSM.war">
+      <element id="artifact" artifact-name="fileUploadSSM:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -18,7 +18,7 @@
         <input type="submit" value="上传"/>
     </form>
     <h5>上传结果</h5>
-    <image alt="暂无图片" src="${fileUrl}"></image>
+    <img src="${fileUrl}" alt="暂无图片"/>
 
 </center>
 

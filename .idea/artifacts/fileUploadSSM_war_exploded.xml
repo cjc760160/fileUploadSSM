@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="fileUploadSSM:war exploded">
-    <output-path>$PROJECT_DIR$/target/fileUpload-SSM</output-path>
+    <output-path>$PROJECT_DIR$/../../Services/apache-tomcat-7.0.70-CCS/webapps/fileUploadSSM</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

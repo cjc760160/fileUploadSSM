@@ -37,7 +37,7 @@ public class FileController {
         //获得项目的路径
         ServletContext sc = request.getSession().getServletContext();
         //上传位置
-        String path = sc.getRealPath("/img") + "/";
+        String path = sc.getRealPath("/WEB-INF/upload") + "/";
         File realFile = new File(path);
         if (!realFile.exists()) {
             realFile.mkdirs();
@@ -58,7 +58,7 @@ public class FileController {
         }
         System.out.println("上传图片到：" + path + newFileName);
         //保存文件地址，用于jsp页面回显
-        modelMap.addAttribute("fileUrl", path + fileName);
+        modelMap.addAttribute("fileUrl", path + newFileName);
         return "fileUpload";
     }
 }

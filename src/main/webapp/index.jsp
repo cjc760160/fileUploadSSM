@@ -1,5 +1,9 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<form name="testform">
+
+    <jsp:forward page = "/WEB-INF/view/fileUpload.jsp" />
+
+</form>
 </body>
 </html>
